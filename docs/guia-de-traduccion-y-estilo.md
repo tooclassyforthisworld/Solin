@@ -8,7 +8,7 @@ slug: /guia
 
 > Marco común de criterios lingüísticos, técnicos y de trabajo colaborativo para traducir y localizar al español cualquier tipo de proyecto: software, aplicaciones, videojuegos, documentación y contenidos web.
 
-**Estado:** borrador para discusión · **Idioma de la guía:** español · **Licencia:** por confirmar (véase el [capítulo 1](#1-introducción-y-objetivos))
+**Estado:** borrador para discusión · **Idioma de la guía:** español · **Licencia:** dominio público ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.es))
 
 ---
 
@@ -98,9 +98,9 @@ Cada proyecto tiene necesidades distintas, por lo que las pautas se clasifican p
 
 #### 1.4. Origen y créditos
 
-Esta guía parte de la experiencia acumulada por la comunidad de traducción al español de LibreOffice y de su guía de estilo, de la que toma y generaliza buena parte de las pautas gramaticales y ortotipográficas. Se ha reorganizado y ampliado para servir a otros proyectos.
+Esta guía parte de la guía de traducción y estilo de LibreOffice en español, de la que toma y generaliza buena parte de las pautas gramaticales y ortotipográficas, y de la experiencia acumulada por la comunidad de traducción. Se ha reorganizado y ampliado para servir a otros proyectos.
 
-> **Nota para quien mantiene el repositorio:** antes de publicar, confirme la licencia de los materiales de origen y elija una licencia compatible para esta obra derivada (una licencia Creative Commons de atribución y compartir igual es una opción habitual en documentación abierta). Anótela en el encabezado de este documento y en el archivo `LICENSE`.
+Esta obra, como todo el contenido del repositorio, está dedicada al dominio público mediante [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.es): puede copiarla, modificarla, distribuirla y usarla, incluso con fines comerciales, sin pedir permiso ni citar la fuente (aunque se agradece).
 
 #### 1.5. Cómo se mantiene
 
@@ -1356,7 +1356,7 @@ Toda participación se rige por un código de conducta basado en el respeto y la
 
 #### 31.8. Licencia
 
-Al contribuir, se acepta que el aporte se publique bajo la licencia del repositorio (véase el [apartado 1.4](#14-origen-y-créditos)).
+Todo el contenido del repositorio está dedicado al dominio público mediante CC0 1.0 Universal (véase el [apartado 1.4](#14-origen-y-créditos) y el archivo `LICENSE`). Al contribuir, se acepta que el aporte se publique en las mismas condiciones. No envíe textos ajenos que no puedan dedicarse al dominio público.
 
 ---
 
