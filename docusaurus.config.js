@@ -8,7 +8,7 @@ const config = {
   title: 'Solín',
   tagline: 'Sóftwer libre nativizado',
   url: 'https://tooclassyforthisworld.github.io',
-  baseUrl: '/solin/',
+  baseUrl: '/Solin/',
   onBrokenLinks: 'throw',
 
   // Los archivos .md se interpretan como CommonMark y solo los .mdx como MDX.
