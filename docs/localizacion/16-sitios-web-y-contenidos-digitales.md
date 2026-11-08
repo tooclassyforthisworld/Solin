@@ -8,7 +8,7 @@ Páginas, blogs, boletines, redes sociales, correos, documentos descargables, me
 
 - **Tono y tratamiento:** definidos por la voz de la marca (véase [capítulo 3](../fundamentos-linguisticos/03-registro-y-tono.md)).
 - **Títulos y encabezados:** mayúscula solo inicial; sin punto final.
-- **Enlaces:** el texto del enlace es descriptivo (evitar «haga clic aquí»).
+- **Enlaces:** el texto del enlace es descriptivo (evitar «haga clic aquí»). Si la página enlazada está en otro idioma, se indica entre paréntesis: «(en inglés)».
 - **SEO:** se adaptan los títulos, las descripciones y las palabras clave al uso real de las búsquedas en cada mercado; no se traducen literalmente.
 - **Direcciones (URL):** se decide si se localizan los *slugs*; si se hace, se escriben sin tildes, en minúscula y con guiones, y se mantienen estables.
 - **Metadatos:** etiqueta de idioma correcta (`lang="es"`, `es-MX`, etc.) y `hreflang` para versiones regionales.

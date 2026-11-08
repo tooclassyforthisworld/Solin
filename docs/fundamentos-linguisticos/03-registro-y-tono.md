@@ -36,6 +36,7 @@ El tono es el carácter de la voz del producto: formal, cercano, técnico, lúdi
 
 - **Recomendación:** no traducir las fórmulas de cortesía que en inglés existen por falta de distinción entre tratamientos (*please*, *sorry*), salvo que el tono del producto sea deliberadamente cálido.
 - Se evitan las interjecciones y onomatopeyas del original que no aportan información (*Oops!*, *Uh-oh!*), salvo en contextos humorísticos donde formen parte de la voz de marca.
+- No se humaniza el programa: se evitan las bromas y las frases que le atribuyen emociones o intenciones (*I’m thinking…*, *I love it!*), salvo que la voz de marca lo pida de forma expresa.
 - Los mensajes de error informan de qué ocurrió y qué puede hacerse; no culpan a quien usa el producto.
 
 | Original | Mejor | Evitable |

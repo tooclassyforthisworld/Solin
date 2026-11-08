@@ -90,3 +90,48 @@ El inglés abusa del posesivo para dar un tono cercano (*your files*, *your acco
 - el glosario del proyecto así lo establece.
 
 Los extranjerismos crudos se escriben en cursiva o entre comillas en texto corrido; en la interfaz no suele aplicarse este formato.
+
+## 6.11. Tiempos del pasado y variantes
+
+En los mensajes que informan de un resultado, el español de España tiende al pretérito perfecto compuesto («se ha producido un error», «no se ha podido guardar») y el de buena parte de América, al pretérito indefinido («se produjo un error», «no se pudo guardar»). Ambas formas son correctas.
+
+- **Opción:** elegir una forma por proyecto, aplicarla en todo el producto y anotarla en el [perfil de estilo](../adaptacion-por-proyectos/28-como-crear-un-perfil-de-estilo.md).
+- No se mezclan ambas en mensajes del mismo tipo.
+
+## 6.12. Verbos modales: *can*, *may*, *should*
+
+| Original | Evitable | Recomendado | Comentario |
+|---|---|---|---|
+| You may lose unsaved data. | Puede perder los datos sin guardar. | Es posible que pierda los datos sin guardar. | *Poder* puede leerse como permiso; para la probabilidad conviene *es posible que* o *puede que* con subjuntivo. |
+| You should back up your files. | Debería hacer una copia de sus archivos. | Se recomienda hacer una copia de seguridad. | El condicional *debería* puede sonar a reproche; también vale «Haga una copia de seguridad». |
+| Simply click OK. | Simplemente haga clic en Aceptar. | Haga clic en Aceptar. | Los adverbios de relleno (*simply*, *just*, *easily*) se omiten salvo que aporten sentido. |
+
+## 6.13. Negación
+
+- **Norma:** una palabra negativa colocada detrás del verbo lleva *no* delante («No se encontró ningún archivo»); colocada antes, no lo lleva («Nunca se guarda automáticamente»).
+- **Recomendación:** cuando el *or* del original es negativo, se traduce por *ni*.
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| No file was found. | Se encontró ningún archivo. | No se encontró ningún archivo. |
+| You cannot open or edit the file. | No puede abrir o modificar el archivo. | No puede abrir ni modificar el archivo. |
+
+## 6.14. Enumeraciones: artículos y concordancia
+
+- Se repite el artículo delante de cada elemento cuando cambia el género o el número, o cuando ayuda a evitar ambigüedad: «las películas y los archivos de sonido».
+- Si un adjetivo puede referirse solo al último sustantivo, se reformula.
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Close all open programs and applications. | Cierre todos los programas y aplicaciones abiertas. | Cierre todos los programas y las aplicaciones que estén abiertos. |
+
+## 6.15. *Por* y *para*, *a* y *en*
+
+- **Por:** causa, agente o medio («Gracias por esperar», «Traducido por la comunidad»).
+- **Para:** finalidad o destinatario («Herramienta para convertir imágenes»).
+- **A:** movimiento o destino («Volver a la página anterior»). **En:** ubicación («en esta carpeta»).
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Click here for more information. | Haga clic aquí por más información. | Haga clic aquí para obtener más información. |
+| Press F1 for help. | Pulse F1 por ayuda. | Pulse F1 para obtener ayuda. |

@@ -28,6 +28,8 @@ Los falsos amigos son palabras de apariencia similar entre dos lenguas pero con 
 - **Norma:** se respeta la grafía oficial del nombre (macOS, LibreOffice, iPhone) aunque inicie una oración.
 - Los nombres de producto no se traducen, salvo que el titular tenga una versión oficial en español.
 - Los nombres de funciones o módulos del producto sí se traducen si forman parte de la interfaz, y se registran en el glosario.
+- Los nombres de aplicaciones, lenguajes y sistemas se escriben con su mayúscula; los términos genéricos, con minúscula (*un cliente de correo*).
+- *Versión* es un nombre común: se escribe con minúscula tras el nombre del producto («LibreOffice versión 24.8»), y puede omitirse si falta espacio («LibreOffice 24.8»).
 
 ## 7.6. Siglas, acrónimos y abreviaturas
 

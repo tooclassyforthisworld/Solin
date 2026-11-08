@@ -31,6 +31,8 @@
 | **embarrassed** | embarazado | avergonzado |
 | **sympathetic** | simpático | comprensivo, compasivo |
 | **sale** | sal | venta, oferta |
+| **billion** | billón (equivale a *trillion*) | mil millones |
+| **trillion** | trillón (equivale a *quintillion*) | billón |
 | **actual vs. current (informática)** | «valor actual» (puede ser ambiguo) | valor real / valor actual, según el contexto |
 
 > **Matices:** algunos de estos usos están muy extendidos en ámbitos técnicos (*librería*, *soportar*, *rango*, *propietario*). La recomendación general es evitarlos y emplear las alternativas indicadas; el proyecto puede documentar excepciones en su glosario.

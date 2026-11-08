@@ -6,6 +6,7 @@
 - Los miles y millones pueden combinar cifra y palabra (3 millones).
 - En la interfaz, las cantidades se escriben con cifras.
 - **Recomendación:** cada proyecto fija el criterio y lo aplica por igual en textos de interfaz y de ayuda.
+- **Cuidado con *billion*:** en inglés estadounidense son mil millones (10⁹), pero en español un *billón* es un millón de millones (10¹²). *Billion* se traduce por «mil millones» (o «millardo»); *trillion* (10¹²), por «billón». Véase el [Anexo E](../anexos/05-lista-de-falsos-amigos.md).
 
 ## 8.2. Separadores decimales y de millares
 
@@ -28,6 +29,7 @@ El español admite dos separadores decimales válidos: la **coma** (mayoritaria 
 - El símbolo `%` se separa de la cifra: `315 %`.
 - Excepción: el grado de ángulo y las primas (`°`, `′`, `″`) van pegados: `270°`, `45′ 33″`.
 - Los símbolos no cambian en plural.
+- **Recomendación:** emplear por defecto el sistema métrico y, si el producto lo permite, dejar que la persona cambie las unidades.
 - Las unidades se escriben con el sistema internacional salvo que el contexto exija otras.
 
 ## 8.5. Abreviaturas
@@ -66,3 +68,18 @@ El español usa menos mayúsculas que el inglés.
 - La cursiva marca extranjerismos, títulos de obras y énfasis puntual.
 - No se subraya para enfatizar (confunde con los enlaces).
 - Se mantiene el formato del original cuando tiene función técnica (código, nombres de campos).
+
+## 8.8. Números ordinales
+
+Los ordinales se abrevian con la cifra, un punto y la letra volada: 1.º, 2.ª, 3.er, 1.os. No se recomiendan las formas coloquiales extendidas en algunas zonas (*1ro*, *2da*, *3ero*).
+
+| Evitable | Recomendado |
+|---|---|
+| 1ro, 2da, 3ero | 1.º, 2.ª, 3.er |
+
+## 8.9. Números de teléfono
+
+Se agrupan según el plan de numeración de cada país, separando los grupos con espacios, no con guiones, y en el formato internacional con prefijo cuando el texto se dirige a varios países: «+34 912 345 678», «+52 55 1234 5678».
+
+- Los números ficticios de los ejemplos no deben corresponder a líneas reales.
+- Los números de contacto de oficinas del original se sustituyen por los locales o se eliminan.

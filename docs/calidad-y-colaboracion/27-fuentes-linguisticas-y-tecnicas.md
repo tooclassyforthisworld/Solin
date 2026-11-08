@@ -13,6 +13,7 @@
 - [Portal de lenguaje de Microsoft](https://www.microsoft.com/en-us/language): glosarios y memorias de traducción.
 - Glosarios de proyectos abiertos (GNOME, KDE, Debian, Mozilla, Ubuntu, GNU, LibreOffice).
 - Glosarios de plataformas (Apple, Google, Android).
+- [*Guia d'estil* de Softcatalà](https://www.softcatala.org/projectes/guia-destil/): criterios de estilo, gramática y localización para el catalán, publicados con licencia CC BY-SA 4.0. Muchas ideas son trasladables al español, pero no su texto: se reformulan con palabras y ejemplos propios.
 
 ## 27.3. Normas y recomendaciones técnicas
 

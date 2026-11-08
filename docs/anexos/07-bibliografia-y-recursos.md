@@ -32,6 +32,7 @@
 - [Guía de los traductores de Ubuntu](https://wiki.ubuntu.com/UbuntuSpanishTranslators/Estilo).
 - [Guía de los traductores de Haiku](https://dev.haiku-os.org/wiki/i18n/es_ES/StyleGuide).
 - Guía de traducción y estilo de LibreOffice en español (Document Foundation Wiki).
+- [*Guia d'estil* de Softcatalà](https://www.softcatala.org/projectes/guia-destil/) (catalán; CC BY-SA 4.0).
 - Guías de estilo lingüístico de plataformas (Microsoft, Apple, Google, Android).
 
 ## G.5. Normas técnicas y estándares

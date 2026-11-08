@@ -19,3 +19,22 @@ En español lo habitual es colocar el adjetivo calificativo después del sustant
 | The straightforward, clean interface… | La sencilla y limpia interfaz… | La interfaz sencilla y limpia… |
 
 > **Matiz:** en algunos sintagmas muy asentados en la interfaz (*Nuevo documento*, *Nueva carpeta*) el adjetivo antepuesto está plenamente integrado en el uso. Cada proyecto puede adoptar o no estas fórmulas, pero debe aplicar el mismo criterio en todas las cadenas equivalentes.
+
+## 5.2. Orden lógico de la información
+
+En las instrucciones se da primero el marco general y después el detalle, en el orden en que la persona lo necesita para actuar.
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Select Properties from the context menu of the selected file. | Seleccione Propiedades en el menú contextual del archivo seleccionado. | En el menú contextual del archivo, seleccione Propiedades. |
+
+## 5.3. Construcción positiva
+
+Cuando el original lo permite sin cambiar el sentido, una formulación positiva resulta más directa que una negativa.
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Don't forget to save the document. | No olvide guardar el documento. | Recuerde guardar el documento. |
+| Do not leave the field empty. | No deje el campo vacío. | Rellene el campo. |
+
+La negación se conserva cuando la prohibición es el mensaje (*No apague el equipo durante la actualización*).
