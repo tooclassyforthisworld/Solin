@@ -8,6 +8,16 @@ sidebar_position: 1
 
 Con esta guía se pretende resolver algunas de las dudas más frecuentes que se plantean con respecto a la traducción al español y la regionalización de aplicaciones y programas, así como establecer una serie de pautas estilísticas, gramaticales, ortográficas y ortotipográficas para garantizar que el producto final resulte fácil de utilizar, coherente y depurado de errores comunes.
 
+## Contenido
+
+La [guía abierta de traducción y estilo](./guia.md) se organiza en cuatro partes y siete anexos:
+
+- [Parte I. Fundamentos lingüísticos](/docs/parte-i)
+- [Parte II. Localización](/docs/parte-ii)
+- [Parte III. Calidad y trabajo colaborativo](/docs/parte-iii)
+- [Parte IV. Adaptación por proyectos](/docs/parte-iv)
+- [Anexos](/docs/anexos)
+
 ## Referencias y obras de consulta
 
 ### Generales

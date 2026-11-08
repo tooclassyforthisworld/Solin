@@ -1,0 +1,9 @@
+{
+  "label": "Anexos",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "slug": "/anexos",
+    "description": "Glosarios, tabla de variantes regionales, ejemplos, falsos amigos, plantilla de guía de estilo y bibliografía."
+  }
+}
