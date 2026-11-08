@@ -33,3 +33,20 @@ El perfil de estilo ([capítulo 28](../adaptacion-por-proyectos/28-como-crear-un
 - Se evitan estereotipos en ejemplos, personajes y textos de muestra.
 - En formularios, se pregunta por el género solo si es necesario, y con opciones inclusivas.
 - Los mensajes dirigidos a la persona usuaria se redactan sin presuponer su género (*Bienvenido* → *Le damos la bienvenida*).
+
+## 10.6. Tabla de sustituciones
+
+Lista orientativa de alternativas a masculinos genéricos frecuentes. Se elige según el contexto, y no se duplican formas si falta espacio.
+
+| Evitable | Alternativas |
+|---|---|
+| los usuarios | las personas usuarias, quien use el producto, la comunidad de usuarios |
+| los niños | la infancia, los menores |
+| los desarrolladores | el equipo de desarrollo |
+| el administrador | la administración |
+| los alumnos, los profesores | el alumnado, el profesorado |
+| los clientes | la clientela |
+| el autor | la autoría |
+| los interesados | las personas interesadas |
+| bienvenido | le damos la bienvenida |
+| todos | todo el mundo, cada persona |

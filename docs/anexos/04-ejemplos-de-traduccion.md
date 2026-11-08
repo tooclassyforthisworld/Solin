@@ -89,3 +89,20 @@ Cada ejemplo sigue el esquema **original → evitable → recomendado**.
 |---|---|---|
 | All users must log in. | Todos los usuarios deben iniciar sesión. | Quien use el servicio debe iniciar sesión. / Es necesario iniciar sesión. |
 | Contact your administrator. | Contacte con su administrador. | Contacte con la administración del sistema. |
+
+## D.12. Negación y verbos modales
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| No file was found. | Se encontró ningún archivo. | No se encontró ningún archivo. |
+| You cannot open or edit the file. | No puede abrir o modificar el archivo. | No puede abrir ni modificar el archivo. |
+| You may lose unsaved data. | Puede perder los datos sin guardar. | Es posible que pierda los datos sin guardar. |
+| Simply click OK. | Simplemente haga clic en Aceptar. | Haga clic en Aceptar. |
+
+## D.13. Instrucciones y mensajes de error
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Select Properties from the context menu of the selected file. | Seleccione Propiedades en el menú contextual del archivo seleccionado. | En el menú contextual del archivo, seleccione Propiedades. |
+| Error opening file. | Error abriendo archivo. | Se produjo un error al abrir el archivo. |
+| Press F1 for help. | Pulse F1 por ayuda. | Pulse F1 para obtener ayuda. |

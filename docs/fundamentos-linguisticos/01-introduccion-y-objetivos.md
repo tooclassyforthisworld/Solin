@@ -23,9 +23,11 @@ Cada proyecto tiene necesidades distintas, por lo que las pautas se clasifican p
 | **Recomendación** | Es la opción por defecto. Puede omitirse con una razón documentada. |
 | **Opción** | Es una decisión legítima entre varias; cada proyecto elige y la registra en su perfil. |
 
+> **«Evitable» no significa «incorrecto».** En las tablas de ejemplos, la columna «Evitable» recoge formas que esta guía desaconseja por naturalidad, claridad o coherencia, pero no siempre son erróneas en cualquier contexto. Los comentarios que acompañan a los ejemplos ayudan a distinguir lo incorrecto de lo meramente desaconsejado.
+
 ## 1.4. Origen y créditos
 
-Esta guía parte de la guía de traducción y estilo de LibreOffice en español, de la que toma y generaliza buena parte de las pautas gramaticales y ortotipográficas, y de la experiencia acumulada por la comunidad de traducción. Se ha reorganizado y ampliado para servir a otros proyectos.
+Esta guía parte de la guía de traducción y estilo de LibreOffice en español, de la que toma y generaliza buena parte de las pautas gramaticales y ortotipográficas, y de la experiencia acumulada por la comunidad de traducción. Se ha reorganizado y ampliado para servir a otros proyectos. También recoge ideas de otras guías abiertas, en particular de la [*Guia d'estil* de Softcatalà](https://www.softcatala.org/projectes/guia-destil/) para el catalán, adaptadas al español y redactadas de forma independiente (véase el [capítulo 27](../calidad-y-colaboracion/27-fuentes-linguisticas-y-tecnicas.md)).
 
 Esta obra, como todo el contenido del repositorio, está dedicada al dominio público mediante [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.es): puede copiarla, modificarla, distribuirla y usarla, incluso con fines comerciales, sin pedir permiso ni citar la fuente (aunque se agradece).
 

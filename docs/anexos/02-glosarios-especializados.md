@@ -162,3 +162,19 @@
 | slug | slug / identificador de URL | |
 | blog post | entrada | |
 | comment | comentario | |
+
+## B.6. Programación y tipos de datos
+
+| Inglés | Español | Notas |
+|---|---|---|
+| Boolean | booleano | |
+| string | cadena (de caracteres) | |
+| integer | entero | |
+| floating-point number | número de coma flotante | *punto flotante* en parte de América |
+| array | matriz | *arreglo* en parte de América |
+| null | nulo | |
+| attribute | atributo | |
+| property | propiedad | |
+| object | objeto | |
+
+> Si el programa necesita el identificador original para funcionar (nombres de tipos en el código, valores de configuración), no se traduce.

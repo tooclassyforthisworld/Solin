@@ -22,6 +22,7 @@ El español se habla en más de veinte países con diferencias de léxico, de tr
 - Cuando una palabra varía por región, se elige una opción por proyecto y se registra en el glosario ([capítulo 21](../calidad-y-colaboracion/21-gestion-terminologica.md)).
 - En proyectos de alcance amplio se prefieren los términos comprendidos en todas las zonas o aquellos para los que existe una opción neutra (p. ej. *archivo* en lugar de *fichero*).
 - Se evitan los coloquialismos y la jerga local salvo que el tono lo pida.
+- En caso de duda entre dos formas, se prefiere la que el *Diccionario panhispánico de dudas* o la *Nueva gramática* presentan como general, siempre que no suene forzada.
 - El [Anexo C](../anexos/03-tabla-de-variantes-regionales.md) reúne ejemplos de divergencias frecuentes.
 
 ## 4.5. Convenciones regionales

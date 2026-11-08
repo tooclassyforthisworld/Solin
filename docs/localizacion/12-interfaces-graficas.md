@@ -35,3 +35,33 @@ Los **atajos de teclado** son estándar y no se traducen, salvo que la plataform
 ## 12.4. Elementos gráficos
 
 Se revisan los iconos, las capturas y las imágenes con texto incrustado. Los elementos culturales (gestos, colores, símbolos) se valoran en cada mercado.
+
+## 12.5. Mensajes de error
+
+- Siempre que haya espacio, el mensaje es una oración completa que dice qué ocurrió, en lugar de la palabra suelta *Error* seguida de un fragmento.
+- Se mantiene el tono neutro del [capítulo 3](../fundamentos-linguisticos/03-registro-y-tono.md): sin interjecciones ni disculpas.
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Error opening file. | Error abriendo archivo. | Se produjo un error al abrir el archivo. / No se pudo abrir el archivo. |
+
+La elección entre «se produjo» y «se ha producido» se describe en el [apartado 6.11](../fundamentos-linguisticos/06-gramatica-y-sintaxis.md).
+
+## 12.6. Nombres de teclas y notación de atajos
+
+- Las teclas simultáneas se separan con `+` (`Ctrl+P`); las que se pulsan en secuencia, con coma.
+- Los atajos del original se conservan aunque la letra ya no coincida con la inicial de la orden traducida, porque son una convención entre aplicaciones.
+- Los nombres de las teclas deben coincidir con los del teclado y la plataforma de destino. Tabla orientativa:
+
+| Tecla | Nombre habitual en español |
+|---|---|
+| Enter | Intro (también *Entrar*; *Retorno* en macOS) |
+| Backspace | Retroceso |
+| Delete | Supr |
+| Caps Lock | Bloq Mayús |
+| Num Lock | Bloq Num |
+| Print Screen | Impr Pant |
+| Page Up / Page Down | Re Pág / Av Pág |
+| Home / End | Inicio / Fin |
+| Shift | Mayús |
+| Space | Barra espaciadora |
