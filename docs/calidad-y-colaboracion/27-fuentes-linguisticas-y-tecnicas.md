@@ -23,6 +23,7 @@
 - [W3C WAI](https://www.w3.org/WAI/): accesibilidad.
 - Estándares de la industria: XLIFF, TMX, TBX; ISO 17100 (servicios de traducción), ISO 18587 (postedición).
 - UNE 153010 (subtitulado accesible).
+- ISO/IEC 9995-7 (símbolos grabados en las teclas) y el estándar Unicode (bloques «Miscellaneous Technical» y «Arrows»).
 
 ## 27.4. Cómo evaluar una fuente
 

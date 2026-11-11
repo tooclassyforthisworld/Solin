@@ -14,6 +14,7 @@ La accesibilidad es una cualidad del producto y también de la traducción. Una 
 - **Subtítulos y transcripciones:** fieles, sincronizados, con identificación de hablantes y sonidos relevantes.
 - **Contraste y legibilidad:** la expansión del texto traducido no debe romper los diseños accesibles.
 - **Símbolos de secuencias de menú (`▸`):** se comprueba que los lectores de pantalla los anuncien de forma comprensible; si no, se adopta una alternativa y se documenta.
+- **Símbolos de teclas (`⌘`, `⌥`, `⇧`):** se acompañan del nombre de la tecla ([apartado 12.7](./12-interfaces-graficas.md#127-símbolos-de-teclas)).
 - **Plurales y concordancia:** también afectan a la lectura en voz alta.
 
 ## 17.2. Marcos de referencia
