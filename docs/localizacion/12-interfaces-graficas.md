@@ -98,4 +98,3 @@ Algunas plataformas representan las teclas con símbolos Unicode en lugar de con
 
 «—» indica que no hay símbolo establecido o que no se ha podido verificar en las fuentes consultadas.
 
-> **Nota para quien revisa:** la tabla se basa en la [guía de macOS de Apple](https://support.apple.com/es-lamr/guide/mac-help/cpmh0011/mac) (nombres en español), en una [tabla de símbolos de ISO/IEC 9995-7](https://jdebp.uk/FGA/iso-9995-7-symbols.html) y en los nombres del estándar Unicode. La norma ISO/IEC 9995-7 es de pago, así que conviene cotejar las celdas con el texto oficial. En Unicode, ⌘ se llama «PLACE OF INTEREST SIGN», dato útil para buscarlo.
