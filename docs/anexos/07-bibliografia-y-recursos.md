@@ -45,6 +45,8 @@
 - XLIFF, TMX y TBX (formatos de intercambio).
 - ISO 17100 (servicios de traducción) e ISO 18587 (postedición).
 - UNE 153010 (subtitulado para personas sordas o con discapacidad auditiva).
+- ISO/IEC 9995-7 (símbolos para las teclas del teclado).
+- [Atajos de teclado de la Mac (Apple)](https://support.apple.com/es-lamr/guide/mac-help/cpmh0011/mac): nombres y símbolos de las teclas en macOS.
 
 ## G.6. Estudios y artículos
 
