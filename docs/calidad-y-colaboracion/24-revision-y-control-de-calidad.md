@@ -37,6 +37,7 @@ Las plataformas pueden detectar, entre otras cosas:
 - longitud excesiva;
 - números distintos del original;
 - comillas y signos de apertura omitidos;
+- caracteres tipográficos incorrectos (guion por signo menos, `x` por `×`, `º` por `°`);
 - aceleradores duplicados.
 
 Estas comprobaciones **no sustituyen** la lectura humana.
