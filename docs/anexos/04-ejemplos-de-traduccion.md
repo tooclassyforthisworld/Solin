@@ -106,3 +106,14 @@ Cada ejemplo sigue el esquema **original → evitable → recomendado**.
 | Select Properties from the context menu of the selected file. | Seleccione Propiedades en el menú contextual del archivo seleccionado. | En el menú contextual del archivo, seleccione Propiedades. |
 | Error opening file. | Error abriendo archivo. | Se produjo un error al abrir el archivo. |
 | Press F1 for help. | Pulse F1 por ayuda. | Pulse F1 para obtener ayuda. |
+
+## D.14. Microtipografía
+
+| Original | Evitable | Recomendado |
+|---|---|---|
+| Resolution: 1920x1080 | Resolución: 1920x1080 | Resolución: 1920 × 1080 |
+| Temperature: -5°C | Temperatura: -5 ºC | Temperatura: −5 °C |
+| Item no. 5 | Artículo nº5 | Artículo n.º 5 |
+| Area in m2 | Superficie en m2 | Superficie en m² |
+| See pp. 12-15 | Véase págs 12 al 15 | Véanse las págs. 12-15 |
+| O'Brien's report | Informe de O'Brien | Informe de O’Brien |
