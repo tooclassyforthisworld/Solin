@@ -12,6 +12,7 @@ Términos propios de la traducción y la localización usados en esta guía.
 | **Contexto** | Información sobre dónde y cómo aparece una cadena. |
 | **Congelación de cadenas (*string freeze*)** | Periodo en que el texto original no cambia para permitir traducir. |
 | **Desarrollo (equipo de)** | Personas que crean el producto. |
+| **Espacio indivisible** | Espacio que impide que dos elementos se separen en renglones distintos (U+00A0, y U+202F en su versión fina). |
 | **Falso amigo** | Palabra parecida en dos lenguas pero de significado distinto. |
 | **Glosario** | Lista de términos con su traducción aprobada. |
 | **Globalización (G11n)** | Conjunto de internacionalización y localización. |
@@ -21,6 +22,7 @@ Términos propios de la traducción y la localización usados en esta guía.
 | **LQA** | Control de calidad lingüístico, generalmente dentro del producto. |
 | **Marcador de posición (*placeholder*)** | Elemento que se sustituye por un valor en tiempo de ejecución (`%s`, `{name}`). |
 | **Memoria de traducción (MT/TM)** | Base de datos de segmentos traducidos reutilizables. |
+| **Microtipografía** | Conjunto de decisiones sobre caracteres, espacios y signos pequeños (signo menos, multiplicación, apóstrofo, ordinales). |
 | **MQM** | Marco de métricas de calidad de traducción. |
 | **Perfil de estilo** | Documento de decisiones de estilo específicas de un proyecto. |
 | **Postedición** | Revisión y corrección de un texto producido por traducción automática. |
