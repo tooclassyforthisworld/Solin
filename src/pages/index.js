@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -7,18 +6,22 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
+function HomepageHero() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={styles.cover}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Comenzar
+        <p className={styles.issue}>Volumen I · Número 1</p>
+        <h1 className={styles.title}>{siteConfig.title}</h1>
+        <p className={styles.subtitle}>{siteConfig.tagline}</p>
+        <div className={styles.rule} />
+        <p className={styles.byline}>
+          Directrices para la traducción y regionalización de programas
+          informáticos en español.
+        </p>
+        <div className={styles.actions}>
+          <Link className={styles.action} to="/docs/intro">
+            Comenzar la lectura
           </Link>
         </div>
       </div>
@@ -32,8 +35,8 @@ export default function Home() {
     <Layout
       title={`Le damos la bienvenida a ${siteConfig.title}`}
       description="Directrices de traducción para programas informáticos en español">
-      <HomepageHeader />
-      <main>
+      <HomepageHero />
+      <main className={styles.main}>
         <HomepageFeatures />
       </main>
     </Layout>

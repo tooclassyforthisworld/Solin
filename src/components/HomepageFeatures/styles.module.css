@@ -1,11 +1,70 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.section {
+  padding: 3rem 0 4rem;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.sectionTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--solin-muted);
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-variant: small-caps;
+  letter-spacing: 0.14em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.entry {
+  text-align: left;
+  border-top: 1px solid var(--solin-rule);
+  padding-top: 1.25rem;
+}
+
+.numeral {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--solin-accent);
+  display: block;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.entryTitle {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+  color: var(--solin-ink);
+  text-wrap: balance;
+}
+
+.entryBody {
+  font-family: var(--ifm-font-family-base);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--solin-ink);
+  margin: 0;
+  hyphens: auto;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+  .section {
+    padding: 2rem 0 2.5rem;
+  }
 }

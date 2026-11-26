@@ -1,30 +1,672 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Solín — Long-form magazine theme
+ * =====================================================================
+ *
+ * Palette: Paris Review — warm cream paper, near-black ink, deep red
+ * accent. Deliberately warm (low blue light) for comfortable reading.
+ *
+ * Body type:    Crimson Pro (book-face revival, made for long-form
+ *               screen reading; carries Spanish accents gracefully).
+ * Display type: Playfair Display (high-contrast transitional serif
+ *               for headings and the title block).
+ * Code:         JetBrains Mono.
+ *
+ * Microtypography tailored to Romance languages (es, ca):
+ *   - Hyphenation: automatic, with lang-aware quotes.
+ *   - Old-style (lowercase) figures in body text; lining figures in
+ *     headings, tables and code.
+ *   - Hanging punctuation where supported (Firefox / Safari).
+ *   - text-wrap: pretty to avoid rivers of orphans.
+ *   - widows: 2; orphans: 2; on body paragraphs.
+ *   - Small-caps lead-in on the opening words of every article —
+ *     the `<span class="lead-in">` is injected by the remark plugin
+ *     at src/plugins/remark-lead-in.js.
+ *   - Justified body text with hyphenation, falling back to ragged
+ *     right on small viewports.
+ *
+ * Any CSS included here is global. The classic template bundles
+ * Infima by default; we override its variables below.
  */
 
-/* You can override the default Infima variables here. */
+/* =====================================================================
+   Infima overrides: palette
+   ===================================================================== */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Paper, ink, accent — all warm, no blues */
+  --ifm-background-color: #f7f2e7;          /* warm cream paper */
+  --ifm-background-surface-color: #f1ebde;  /* slightly darker for cards */
+  --ifm-color-emphasis-0: #f7f2e7;
+  --ifm-color-emphasis-100: #efe8d8;
+  --ifm-color-emphasis-200: #e5dcc6;
+  --ifm-color-emphasis-300: #d8cdad;
+  --ifm-color-emphasis-400: #b8ac8b;
+  --ifm-color-emphasis-500: #8e8362;
+  --ifm-color-emphasis-600: #6b6147;
+  --ifm-color-emphasis-700: #4a4231;
+  --ifm-color-emphasis-800: #2e2820;
+  --ifm-color-emphasis-900: #1a1612;        /* warm near-black */
+
+  /* Ink — warm near-black, never pure #000 */
+  --ifm-font-color-base: #1a1612;
+  --ifm-heading-color: #1a1612;
+
+  /* Deep red accent — Paris Review cover red */
+  --ifm-color-primary: #a8201a;
+  --ifm-color-primary-dark: #971d17;
+  --ifm-color-primary-darker: #8a1b15;
+  --ifm-color-primary-darkest: #6f1611;
+  --ifm-color-primary-light: #b83a33;
+  --ifm-color-primary-lighter: #c24a43;
+  --ifm-color-primary-lightest: #d26a63;
+
+  /* Font stacks */
+  --ifm-font-family-base: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --ifm-heading-font-family: 'Playfair Display', 'Cormorant Garamond',
+    Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'IBM Plex Mono', Consolas,
+    'Courier New', monospace;
+
+  /* Solín-specific tokens */
+  --solin-ink: #1a1612;
+  --solin-paper: #f7f2e7;
+  --solin-paper-warm: #f1ebde;
+  --solin-accent: #a8201a;
+  --solin-accent-soft: #b83a33;
+  --solin-rule: #d8cdad;       /* hairline rules */
+  --solin-muted: #6b6147;      /* metadata, bylines */
+  --solin-quote-mark: #a8201a;
+  --solin-text-measure: 38rem; /* ~60-66 characters per line */
+  --solin-leading: 1.65;       /* body line-height */
+
+  /* Code */
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(168, 32, 26, 0.10);
+
+  /* Navbar / links */
+  --ifm-navbar-link-color: #1a1612;
+  --ifm-navbar-link-hover-color: #a8201a;
+  --ifm-navbar-background-color: #f7f2e7;
+  --ifm-navbar-height: 4rem;
+
+  /* Sidebar */
+  --ifm-menu-color: #2e2820;
+  --ifm-menu-color-background-active: #f1ebde;
+  --ifm-menu-color-active: #a8201a;
+
+  /* Footer */
+  --ifm-footer-background-color: #1a1612;
+  --ifm-footer-color: #efe8d8;
+  --ifm-footer-link-color: #d8cdad;
+  --ifm-footer-title-color: #f7f2e7;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ---- Dark mode: keep it warm, never blue-black --------------------- */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #1a1612;
+  --ifm-background-surface-color: #241f19;
+  --ifm-color-emphasis-0: #1a1612;
+  --ifm-color-emphasis-100: #241f19;
+  --ifm-color-emphasis-200: #2e2820;
+  --ifm-color-emphasis-300: #3d352b;
+  --ifm-color-emphasis-400: #5c5240;
+  --ifm-color-emphasis-500: #82765b;
+  --ifm-color-emphasis-600: #a89977;
+  --ifm-color-emphasis-700: #c9b98c;
+  --ifm-color-emphasis-800: #e5d8b5;
+  --ifm-color-emphasis-900: #f4ecd3;
+
+  --ifm-font-color-base: #f1ebde;
+  --ifm-heading-color: #f4ecd3;
+
+  --ifm-color-primary: #d26a63;
+  --ifm-color-primary-dark: #c24a43;
+  --ifm-color-primary-darker: #b83a33;
+  --ifm-color-primary-darkest: #971d17;
+  --ifm-color-primary-light: #da8079;
+  --ifm-color-primary-lighter: #e09690;
+  --ifm-color-primary-lightest: #ebb5b0;
+
+  --solin-ink: #f1ebde;
+  --solin-paper: #1a1612;
+  --solin-paper-warm: #241f19;
+  --solin-accent: #d26a63;
+  --solin-accent-soft: #da8079;
+  --solin-rule: #3d352b;
+  --solin-muted: #a89977;
+  --solin-quote-mark: #d26a63;
+
+  --ifm-navbar-link-color: #f1ebde;
+  --ifm-navbar-link-hover-color: #d26a63;
+  --ifm-menu-color: #e5d8b5;
+  --ifm-menu-color-background-active: #241f19;
+  --ifm-menu-color-active: #d26a63;
+
+  --docusaurus-highlighted-code-line-bg: rgba(218, 128, 121, 0.16);
+}
+
+/* =====================================================================
+   Base typography
+   ===================================================================== */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+  font-size: 1.125rem;            /* 18px base, magazine size */
+  line-height: var(--solin-leading);
+  color: var(--ifm-font-color-base);
+  background-color: var(--ifm-background-color);
+  font-optical-sizing: auto;
+  /* Body uses old-style (lowercase) figures — feels more book-like */
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'onum' 1, 'pnum' 1;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings — high-contrast display serif, lining figures */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  color: var(--ifm-heading-color);
+  font-weight: 700;
+  font-optical-sizing: auto;
+  text-wrap: balance;
+  letter-spacing: -0.005em;
+  line-height: 1.2;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'lnum' 1, 'pnum' 1;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 0.6em;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* =====================================================================
+   Article body: long-form measure, justified + hyphenated
+   ===================================================================== */
+
+.markdown,
+.theme-doc-markdown,
+.theme-blog-post-content {
+  max-width: var(--solin-text-measure);
+}
+
+/* Body paragraphs get the full microtypography treatment */
+.markdown > p,
+.theme-doc-markdown > p,
+.theme-blog-post-content > p,
+.markdown > ul > li > p,
+.markdown > ol > li > p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  text-justify: inter-word;
+  text-wrap: pretty;
+  hanging-punctuation: first last;
+  widows: 2;
+  orphans: 2;
+  margin-bottom: 1.25em;
+}
+
+/* List markers themselves stay left-aligned */
+.markdown ul,
+.markdown ol {
+  text-align: left;
+}
+
+/* =====================================================================
+   Small-caps lead-in
+   The remark plugin wraps the first three words of every article's
+   opening paragraph in <span class="lead-in">. We render them in
+   small caps with a hint of letter-spacing.
+   ===================================================================== */
+
+.lead-in {
+  font-variant-caps: small-caps;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'smcp' 1, 'onum' 1;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--solin-ink);
+}
+
+/* =====================================================================
+   Blockquotes — hanging guillemet, italic body
+   ===================================================================== */
+
+.markdown blockquote,
+.theme-doc-markdown blockquote {
+  margin: 1.75em 0;
+  padding: 0.4em 1.25em 0.4em 2em;
+  border-left: 0;
+  background: transparent;
+  color: var(--solin-ink);
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  text-align: left;
+  position: relative;
+}
+
+.markdown blockquote::before {
+  content: '«';
+  position: absolute;
+  left: -0.1em;
+  top: -0.15em;
+  font-size: 2.25rem;
+  color: var(--solin-quote-mark);
+  font-style: normal;
+  font-family: var(--ifm-heading-font-family);
+  line-height: 1;
+}
+
+.markdown blockquote p {
+  text-align: left;
+  hyphens: manual;
+}
+
+/* =====================================================================
+   Inline code & code blocks
+   ===================================================================== */
+
+.markdown code:not(pre code) {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.85em;
+  font-weight: 500;
+  background: var(--ifm-color-emphasis-100);
+  color: var(--solin-accent);
+  padding: 0.1em 0.4em;
+  border-radius: 0.2em;
+  font-variant-numeric: lining-nums;
+}
+
+.markdown pre,
+.theme-code-block {
+  background: var(--solin-paper-warm) !important;
+  border-top: 2px solid var(--solin-accent);
+  border-radius: 0;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.95rem;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+/* Tables — lining figures */
+.markdown table {
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+/* =====================================================================
+   Navbar — editorial masthead
+   ===================================================================== */
+
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--solin-rule);
+  box-shadow: none;
+  padding: 0.5rem 1.25rem;
+  height: var(--ifm-navbar-height);
+}
+
+.navbar__inner {
+  align-items: center;
+}
+
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  color: var(--solin-ink);
+}
+
+.navbar__logo {
+  height: 1.75rem;
+  margin-right: 0.6rem;
+}
+
+.navbar__link {
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.95rem;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-navbar-link-hover-color);
+  text-decoration: none;
+}
+
+/* Sidebar */
+.theme-doc-sidebar-container {
+  background: var(--ifm-background-color);
+  border-right: 1px solid var(--solin-rule);
+}
+
+.menu__link {
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.95rem;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+  color: var(--solin-accent);
+  background: transparent;
+  border-left: 2px solid var(--solin-accent);
+}
+
+/* =====================================================================
+   Footer
+   ===================================================================== */
+
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  border-top: 4px solid var(--solin-accent);
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-footer-color);
+}
+
+.footer__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: var(--ifm-footer-title-color);
+}
+
+.footer__link-item {
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.95rem;
+  color: var(--ifm-footer-link-color);
+}
+
+.footer__link-item:hover {
+  color: var(--solin-accent-soft);
+}
+
+/* =====================================================================
+   Pagination, ToC, admonitions
+   ===================================================================== */
+
+.pagination-nav__link {
+  border: 1px solid var(--solin-rule);
+  border-radius: 0;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--solin-accent);
+}
+
+.table-of-contents {
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.85rem;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--solin-accent);
+}
+
+.admonition {
+  border-radius: 0;
+  border-left: 3px solid var(--solin-accent);
+  background: var(--solin-paper-warm);
+  font-family: var(--ifm-font-family-base);
+  box-shadow: none;
+}
+
+.admonition .admonition-heading {
+  font-family: var(--ifm-heading-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+}
+
+/* =====================================================================
+   Buttons
+   ===================================================================== */
+
+.button {
+  font-family: var(--ifm-font-family-base);
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  border-radius: 0;
+  border: 1px solid var(--solin-ink);
+  font-weight: 600;
+}
+
+.button--primary {
+  background: var(--solin-accent);
+  border-color: var(--solin-accent);
+  color: var(--solin-paper);
+}
+
+.button--secondary {
+  background: transparent;
+  border-color: var(--solin-ink);
+  color: var(--solin-ink);
+}
+
+.button--secondary:hover {
+  background: var(--solin-ink);
+  color: var(--solin-paper);
+}
+
+/* =====================================================================
+   Hyphenation & quotation marks per Romance locale
+   The Docusaurus i18n config already sets <html lang="es">. We add
+   `quotes` so any <q> elements render with the right guillemets,
+   and `hyphens: auto` for paragraphs inside any Romance-language
+   container, so the theme is ready if Solin later adds ca/pt/fr/it.
+   ===================================================================== */
+
+[lang='es'],
+:root[lang='es'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang='ca'],
+:root[lang='ca'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang='pt'],
+:root[lang='pt'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang='fr'],
+:root[lang='fr'] body {
+  quotes: '«\00a0' '\00a0»' '“' '”';   /* French: non-breaking thin space */
+}
+
+[lang='it'],
+:root[lang='it'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang='gl'],
+:root[lang='gl'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang='ro'],
+:root[lang='ro'] body {
+  quotes: '«' '»' '"' '"';
+}
+
+[lang^='es'] p,
+[lang^='ca'] p,
+[lang^='pt'] p,
+[lang^='fr'] p,
+[lang^='it'] p,
+[lang^='ro'] p,
+[lang^='gl'] p {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* =====================================================================
+   Article title block (blog posts & docs)
+   ===================================================================== */
+
+.blog-post-title {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+  margin-bottom: 0.4em;
+}
+
+.blog-post-meta {
+  font-family: var(--ifm-font-family-base);
+  font-style: italic;
+  color: var(--solin-muted);
+  font-size: 0.95rem;
+}
+
+.blog-post-meta .avatar__name {
+  font-style: normal;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+}
+
+.blog-post-meta .badge {
+  background: transparent;
+  border: 1px solid var(--solin-rule);
+  color: var(--solin-muted);
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+/* Article h1 gets a hairline rule beneath it */
+.markdown h1:first-child {
+  margin-top: 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--solin-rule);
+}
+
+/* HR — a centered hairline with a small diamond, magazine style */
+.markdown hr {
+  border: 0;
+  text-align: center;
+  margin: 2.5em 0;
+  height: auto;
+  background: transparent;
+}
+
+.markdown hr::after {
+  content: '◆';
+  color: var(--solin-accent);
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+/* =====================================================================
+   Links
+   ===================================================================== */
+
+a {
+  color: var(--solin-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
+  text-decoration-skip-ink: auto;
+}
+
+.markdown a {
+  color: var(--solin-accent);
+}
+
+.markdown a:hover {
+  color: var(--solin-accent-soft);
+}
+
+/* =====================================================================
+   Selection
+   ===================================================================== */
+
+::selection {
+  background: var(--solin-accent);
+  color: var(--solin-paper);
+}
+
+/* =====================================================================
+   Mobile: smaller measure, ragged-right to avoid rivers
+   ===================================================================== */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .markdown > p,
+  .theme-doc-markdown > p,
+  .theme-blog-post-content > p {
+    text-align: left;
+  }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.3rem; }
+  .blog-post-title { font-size: 1.8rem; }
+}
+
+/* =====================================================================
+   Print — even more magazine
+   ===================================================================== */
+
+@media print {
+  body {
+    font-size: 11pt;
+    background: white;
+    color: black;
+  }
+  .navbar,
+  .footer,
+  .theme-doc-sidebar-container,
+  .table-of-contents,
+  .pagination-nav {
+    display: none !important;
+  }
+  .markdown,
+  .theme-doc-markdown {
+    max-width: none;
+  }
+  .markdown > p {
+    text-align: justify;
+  }
 }

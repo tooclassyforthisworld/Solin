@@ -18,6 +18,35 @@ const config = {
       onBrokenMarkdownLinks: 'warn',
     },
   },
+
+  // Tipografías de revista: Crimson Pro (cuerpo), Playfair Display
+  // (titulares) y JetBrains Mono (código). Se cargan desde Google
+  // Fonts con preconnect para reducir el tiempo de carga.
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'true',
+      },
+    },
+  ],
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap',
+      rel: 'stylesheet',
+      type: 'text/css',
+    },
+  ],
+
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -36,12 +65,22 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          // Plugin de remark: envuelve las primeras palabras del primer
+          // párrafo de cada artículo en <span class="lead-in"> para que
+          // el CSS las renderice en versalitas. Véase
+          // src/plugins/remark-lead-in.js.
+          remarkPlugins: [
+            [require('./src/plugins/remark-lead-in'), {wordCount: 3}],
+          ],
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/tooclassyforthisworld/solin/tree/trunk/',
         },
         blog: {
           showReadingTime: true,
+          remarkPlugins: [
+            [require('./src/plugins/remark-lead-in'), {wordCount: 3}],
+          ],
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/tooclassyforthisworld/solin/tree/trunk/',

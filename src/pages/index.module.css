@@ -1,23 +1,94 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * Portada de revista — bloque de cabecera de la página inicial.
+ * CSS con ámbito local (.module.css).
  */
 
-.heroBanner {
-  padding: 4rem 0;
+.cover {
+  padding: 5rem 0 3.5rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: var(--ifm-background-color);
+  border-bottom: 1px solid var(--solin-rule);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.issue {
+  font-family: var(--ifm-font-family-base);
+  font-variant: small-caps;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+  color: var(--solin-muted);
+  margin: 0 0 1.75rem;
 }
 
-.buttons {
+.title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 900;
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--solin-ink);
+  margin: 0 0 0.75rem;
+  text-wrap: balance;
+}
+
+.subtitle {
+  font-family: var(--ifm-heading-font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  color: var(--solin-accent);
+  margin: 0 0 1.25rem;
+  text-wrap: balance;
+}
+
+.rule {
+  width: 64px;
+  height: 1px;
+  background: var(--solin-accent);
+  margin: 1.75rem auto;
+}
+
+.byline {
+  font-family: var(--ifm-font-family-base);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--solin-muted);
+  max-width: 38rem;
+  margin: 0 auto 2rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.actions {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.action {
+  font-family: var(--ifm-font-family-base);
+  font-variant: small-caps;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--solin-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--solin-ink);
+  padding-bottom: 0.18em;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.action:hover {
+  color: var(--solin-accent);
+  border-color: var(--solin-accent);
+}
+
+.main {
+  background: var(--ifm-background-color);
+  padding: 0 0 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding: 3rem 0 2rem;
+  }
 }
