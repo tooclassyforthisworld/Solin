@@ -73,8 +73,8 @@ Algunas plataformas representan las teclas con símbolos Unicode en lugar de con
 - **Norma:** los símbolos se usan solo donde la plataforma o el original los usan (menús de macOS, documentación sobre macOS). En Windows y Linux se escribe el nombre de la tecla: `Ctrl+P`, no `⌃P`. En esos sistemas, ⌘ equivale a la tecla *Super* o *Windows*.
 - **Recomendación:** en el texto corrido y en la ayuda se da el nombre de la tecla y, entre paréntesis, su símbolo: «Comando (⌘)», «Opción (⌥)».
 - En macOS los símbolos de un atajo se escriben juntos, sin `+`, y en este orden: Control, Opción, Mayúsculas y Comando, seguidos de la letra: «⇧⌘Z».
-- Se escribe el carácter Unicode, no una imagen ni una fuente de iconos, para que el texto se pueda buscar, copiar y leer.
-- **Accesibilidad:** los lectores de pantalla pueden leer estos símbolos de forma inconsistente o ignorarlos, y no todas las fuentes incluyen todos los glifos. Se añade siempre el nombre de la tecla en el texto o en una etiqueta alternativa ([capítulo 17](./17-accesibilidad.md)) y se comprueba la cobertura de la fuente. Se evitan los símbolos de codificación reciente o poco extendida (como ⯘ U+2BD8 o 🆭 U+1F1AD).
+- Se escribe el carácter Unicode, no una imagen ni un tipo de letra de iconos, para que el texto se pueda buscar, copiar y leer.
+- **Accesibilidad:** los lectores de pantalla pueden leer estos símbolos de forma inconsistente o ignorarlos, y no todos los tipos de letra incluyen todos los glifos. Se añade siempre el nombre de la tecla en el texto o en una etiqueta alternativa ([capítulo 17](./17-accesibilidad.md)) y se comprueba la cobertura del tipo de letra. Se evitan los símbolos de codificación reciente o poco extendida (como ⯘ U+2BD8 o 🆭 U+1F1AD).
 
 | Tecla | Nombre en español (macOS) | Símbolo en macOS | Símbolo en ISO/IEC 9995-7 |
 |---|---|---|---|

@@ -7,6 +7,8 @@
 | Inglés | Español | Notas |
 |---|---|---|
 | file | archivo | *fichero* es habitual en España. |
+| command | orden | *Comando* es un calco frecuente; «Comando» es, en cambio, el nombre de la tecla ⌘ en macOS. |
+| font | tipo de letra | *Fuente* es un calco de *font*; se reserva para «fuente de información» y «código fuente». |
 | folder | carpeta | |
 | directory | directorio | |
 | window | ventana | |
@@ -120,6 +122,7 @@
 | getting started | primeros pasos | |
 | tutorial | tutorial | |
 | how-to | guía práctica | |
+| best practices | prácticas modélicas | Se evita «buenas prácticas». |
 | reference | referencia | |
 | changelog | registro de cambios | |
 | requirements | requisitos | |
@@ -173,6 +176,7 @@
 | floating-point number | número de coma flotante | *punto flotante* en parte de América |
 | array | matriz | *arreglo* en parte de América |
 | null | nulo | |
+| script | secuencia de órdenes | Para el sentido de «sistema de escritura» (*Latin script*), «escritura» o «sistema de escritura». |
 | attribute | atributo | |
 | property | propiedad | |
 | object | objeto | |

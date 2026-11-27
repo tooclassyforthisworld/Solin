@@ -44,9 +44,9 @@ Cuando el género de la persona influye en la concordancia, se piden al equipo d
 
 El orden de los marcadores puede diferir en español. **Norma:** si el sistema lo permite, se usan marcadores posicionales (`%1$s`, `{0}`) para poder reordenarlos.
 
-## 18.5. Direccionalidad y fuentes
+## 18.5. Direccionalidad y tipos de letra
 
-El español es una lengua de izquierda a derecha, pero la interfaz puede incluir texto bidireccional en nombres propios o URL. Se comprueba la presencia de todos los caracteres necesarios en las fuentes elegidas (`¿ ¡ ñ « » … ▸`).
+El español es una lengua de izquierda a derecha, pero la interfaz puede incluir texto bidireccional en nombres propios o URL. Se comprueba la presencia de todos los caracteres necesarios en los tipos de letra elegidos (`¿ ¡ ñ « » … ▸`).
 
 ## 18.6. Cómo reportar
 

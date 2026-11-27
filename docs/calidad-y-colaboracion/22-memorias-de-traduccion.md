@@ -4,7 +4,7 @@
 
 Una memoria de traducción (MT, en inglés *TM*) es una base de datos de segmentos traducidos que se reutilizan cuando aparecen textos idénticos o parecidos.
 
-## 22.2. Buenas prácticas
+## 22.2. Prácticas modélicas
 
 - **Calidad antes que cantidad:** una memoria con errores propaga los errores.
 - **Un segmento, una traducción por contexto.** Se evita almacenar variantes contradictorias.

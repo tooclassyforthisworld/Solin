@@ -26,6 +26,6 @@ Se elige un verbo por gesto y se mantiene en toda la aplicación. Existen difere
 - **Notificaciones:** breves, informativas, sin tono acusatorio ni urgencia artificial.
 - **Permisos:** explican con claridad por qué se solicita el acceso. Se respetan los textos de sistema de cada plataforma.
 - **Fichas de tienda:** título, descripción y palabras clave se adaptan al mercado; respetan los límites de caracteres y las reglas de la plataforma.
-- **Texto en cabeceras y pestañas:** una o dos palabras; se prueban en pantallas pequeñas y con tamaños de fuente ampliados.
+- **Texto en cabeceras y pestañas:** una o dos palabras; se prueban en pantallas pequeñas y con tamaños de letra ampliados.
 - **Pluralización y variables:** se emplean los mecanismos de la plataforma (*plurals* en Android, `stringsdict` en iOS, ICU) y nunca se concatenan frases.
 - Se sigue la terminología de las guías de estilo de la plataforma (Android, iOS) para los elementos de sistema.

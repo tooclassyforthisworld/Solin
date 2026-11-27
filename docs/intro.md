@@ -25,7 +25,7 @@ La [guía abierta de traducción y estilo](./guia.md) se organiza en cuatro part
   - [Sitio general](https://www.fundeu.es/)
   - [Delegación dominicana](https://fundeu.do/)
   - [Delegación argentina](https://fundeu.fiile.org.ar/)
-- [*Diccionario de la lengua española*, 23.ª ed.](https://dle.rae.es/ "Vigesimotercera edición, quinta revisión")
+- [*Diccionario de la lengua española*, 24.ª ed.](https://dle.rae.es/ "Vigesimocuarta edición")
 - [*Diccionario panhispánico de dudas*](https://www.rae.es/dpd/)
 
 ### Especializadas
