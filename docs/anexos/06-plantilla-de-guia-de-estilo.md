@@ -32,7 +32,9 @@ Copie este esquema y complételo para su proyecto. Los apartados entre corchetes
 - Decisiones léxicas clave: [ver glosario]
 
 ## 5. Lenguaje inclusivo
-- Estrategia principal: [...]
+- Estrategia principal: [lenguaje no binario indirecto / directo / ambos]
+- Formas no binarias admitidas: [`-e`, `-x`, neopronombres, alternativa accesible]
+- Cómo se recogen y respetan las preferencias de cada persona: [...]
 - Lo que se evita: [...]
 - Casos especiales: [...]
 

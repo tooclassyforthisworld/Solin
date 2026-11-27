@@ -117,3 +117,15 @@ Cada ejemplo sigue el esquema **original → evitable → recomendado**.
 | Area in m2 | Superficie en m2 | Superficie en m² |
 | See pp. 12-15 | Véase págs 12 al 15 | Véanse las págs. 12-15 |
 | O'Brien's report | Informe de O'Brien | Informe de O’Brien |
+
+## D.15. Lenguaje no binario
+
+| Original | Evitable | LNI | LND |
+|---|---|---|---|
+| The user can choose their own theme. | El usuario puede elegir su tema. | Cada persona usuaria puede elegir su tema. | Cada usuarie puede elegir su tema. |
+| Welcome back, {name}! | ¡Bienvenido de nuevo, {name}! | Le damos la bienvenida de nuevo, {name}. | ¡Bienvenide de nuevo, {name}! |
+| Thanks to all contributors. | Gracias a todos los colaboradores. | Gracias a toda la comunidad colaboradora. | Gracias a todes les colaboradores. |
+| The reviewer was surprised. | El revisor quedó sorprendido. | La revisión sorprendió a quien la hizo. | Le revisore quedó sorprendide. |
+| Alex maintains this plugin. They also translate it. | Alex mantiene este complemento. Él también lo traduce. | Alex mantiene este complemento y también lo traduce. | Alex mantiene este complemento; elle también lo traduce. |
+
+La columna «Evitable» muestra el masculino genérico, que no refleja a todas las personas ni respeta la autodenominación cuando se sabe cómo desea nombrarse alguien.

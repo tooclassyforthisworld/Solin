@@ -5,6 +5,7 @@ Términos propios de la traducción y la localización usados en esta guía.
 | Término | Definición |
 |---|---|
 | **Acelerador** | Letra subrayada de una orden de menú o diálogo que permite activarla por teclado. |
+| **Autodenominación** | Derecho de cada persona a decidir cómo se la nombra (nombre, pronombres y formas gramaticales). |
 | **Calco** | Reproducción de una estructura o palabra de otra lengua sin adaptarla a la propia (*aplicar para un trabajo*). |
 | **CAT (*Computer-Assisted Translation*)** | Traducción asistida por ordenador: herramientas con memorias, glosarios y comprobaciones. |
 | **CLDR** | Repositorio de datos de localización del Consorcio Unicode (formatos, plurales, nombres). |
@@ -19,11 +20,14 @@ Términos propios de la traducción y la localización usados en esta guía.
 | **i18n (internacionalización)** | Preparación técnica de un producto para poder adaptarlo a varias lenguas y regiones. |
 | **ICU** | Conjunto de bibliotecas y sintaxis (*MessageFormat*) para internacionalización. |
 | **L10n (localización)** | Adaptación de un producto a una lengua y una cultura concretas. |
+| **LND (lenguaje no binario directo)** | Uso de neomorfemas y neopronombres (`-e`, *elle*) para nombrar de forma explícita a las personas no binarias. |
+| **LNI (lenguaje no binario indirecto)** | Estrategias que evitan las marcas de género con los recursos de la gramática habitual (colectivos, perífrasis, epicenos). |
 | **LQA** | Control de calidad lingüístico, generalmente dentro del producto. |
 | **Marcador de posición (*placeholder*)** | Elemento que se sustituye por un valor en tiempo de ejecución (`%s`, `{name}`). |
 | **Memoria de traducción (MT/TM)** | Base de datos de segmentos traducidos reutilizables. |
 | **Microtipografía** | Conjunto de decisiones sobre caracteres, espacios y signos pequeños (signo menos, multiplicación, apóstrofo, ordinales). |
 | **MQM** | Marco de métricas de calidad de traducción. |
+| **Neomorfema** | Terminación nueva que se añade a las palabras con género, como `-e` en *amigue*. |
 | **Perfil de estilo** | Documento de decisiones de estilo específicas de un proyecto. |
 | **Postedición** | Revisión y corrección de un texto producido por traducción automática. |
 | **Segmento** | Unidad mínima de trabajo en una herramienta CAT (normalmente una oración). |

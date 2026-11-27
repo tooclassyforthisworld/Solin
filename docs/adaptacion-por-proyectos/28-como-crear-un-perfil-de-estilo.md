@@ -20,7 +20,7 @@ Un **perfil de estilo** es un documento breve que recoge las decisiones concreta
 | **Público y tono** | ¿A quién se habla y cómo? |
 | **Tratamiento** | ¿Tú, usted, vos o impersonal? |
 | **Variante regional** | ¿Neutra, regional o por capas? ¿Qué código de idioma? |
-| **Lenguaje inclusivo** | ¿Qué estrategias se aplican? ¿Qué se evita? |
+| **Lenguaje inclusivo** | ¿Qué estrategias (indirectas, directas o ambas) se aplican y con qué formas? ¿Cómo se recogen y respetan las preferencias de las personas? ¿Qué se evita? |
 | **Ortotipografía** | Comillas, secuencias de menú, fechas, números, unidades, abreviaturas. |
 | **Terminología** | Dónde está el glosario y cómo se actualiza. |
 | **Formatos técnicos** | Marcadores, plurales, aceleradores. |

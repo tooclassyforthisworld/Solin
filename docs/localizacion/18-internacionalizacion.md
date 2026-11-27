@@ -27,6 +27,19 @@ El español distingue singular y plural; en las versiones recientes de CLDR se c
 
 Se evita insertar sustantivos variables en frases con concordancia. Se propone una de las soluciones siguientes: reformular («Elemento: {item}»), usar plantillas por género o recurrir a estructuras neutras.
 
+Cuando el género de la persona influye en la concordancia, se piden al equipo de desarrollo plantillas con una categoría para quienes no se identifican con los géneros binarios, y no solo dos variantes:
+
+```text
+{gender, select,
+  male {Bienvenido}
+  female {Bienvenida}
+  other {Bienvenide}
+}
+```
+
+- La rama `other` no puede ser el masculino por defecto: se redacta con lenguaje no binario directo o indirecto, según el perfil de estilo ([capítulo 10](../fundamentos-linguisticos/10-inclusividad-y-lenguaje-incluyente.md)).
+- Cuando falta información sobre la persona, se evita la concordancia: «Le damos la bienvenida».
+
 ## 18.4. Orden y posición de las variables
 
 El orden de los marcadores puede diferir en español. **Norma:** si el sistema lo permite, se usan marcadores posicionales (`%1$s`, `{0}`) para poder reordenarlos.
