@@ -52,6 +52,15 @@
 
 - Ginovart Cid, C. (2015). *Análisis contrastivo de la localización al español y catalán de los aceleradores en LibreOffice: Estudio de los menús de la interfaz de usuario.* Universidad de Ginebra.
 
+### Lenguaje incluyente y no binario
+
+- López, Á. (2019). [Tú, yo, elle y el lenguaje no binario](http://www.lalinternadeltraductor.org/n19/traducir-lenguaje-no-binario.html). *La Linterna del Traductor*, 19.
+- López, Á. (2020). [Cuando el lenguaje excluye: consideraciones sobre el lenguaje no binario indirecto](https://fh.mdp.edu.ar/revistas/index.php/cuarentanaipes/article/view/4891). *Cuarenta Naipes*, 3, 295-312.
+- López, Á., Rodríguez Barcia, S. y Cabeza Pereiro, M. del C. (2020). [Visibilizar o interpretar: respuesta al Informe de la Real Academia Española sobre el lenguaje inclusivo y cuestiones conexas](https://glotopolitica.com/2020/06/22/visibilizar-o-interpretar-respuesta-al-informe-de-la-real-academia-espanola-sobre-el-lenguaje-inclusivo-y-cuestiones-conexas-2020/). *Anuario de Glotopolítica*.
+- López, Á. y Míguez Bóveda, C. (2021). [Ti, eu, ele e a linguaxe non binaria na tradución entre inglés e castelán](https://doi.org/10.35869/viceversa.v0i21.3469). *Viceversa*, 21, 253-261.
+- López, Á. (2022). [Recontextualización del lenguaje inclusivo y no binario](https://doi.org/10.35869/hafh.v24i2.4105). *Hesperia: Anuario de Filología Hispánica*, 24(2).
+- Moyano, J. (dir.) (2023). *Guia gramatical de llenguatge no-binari*. Raig Verd (en catalán; incluye el capítulo «El gènere a les llengües», de Ártemis López).
+
 ## G.7. Nota sobre los enlaces
 
 Los enlaces pueden cambiar o desaparecer. Se recomienda revisarlos periódicamente y registrar los cambios en el `CHANGELOG.md` del repositorio.

@@ -55,6 +55,7 @@ Estas comprobaciones **no sustituyen** la lectura humana.
 - [ ] ¿Los aceleradores y atajos son coherentes?
 - [ ] ¿El resultado es coherente con el resto del producto y con la ayuda?
 - [ ] ¿Es inclusivo y accesible?
+- [ ] ¿Se respetan las formas con que cada persona desea que se la nombre?
 
 ## 24.5. Retroalimentación
 

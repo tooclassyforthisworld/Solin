@@ -25,7 +25,7 @@ slug: /guia
 7. [Terminología y léxico](./fundamentos-linguisticos/07-terminologia-y-lexico.md)
 8. [Ortotipografía](./fundamentos-linguisticos/08-ortotipografia.md)
 9. [Puntuación y convenciones tipográficas](./fundamentos-linguisticos/09-puntuacion-y-convenciones-tipograficas.md)
-10. [Inclusividad y lenguaje no sexista](./fundamentos-linguisticos/10-inclusividad-y-lenguaje-no-sexista.md)
+10. [Inclusividad y lenguaje incluyente](./fundamentos-linguisticos/10-inclusividad-y-lenguaje-incluyente.md)
 
 **[Parte II. Localización](/docs/parte-ii)**
 
