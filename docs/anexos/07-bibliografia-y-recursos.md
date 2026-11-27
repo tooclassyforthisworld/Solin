@@ -2,7 +2,7 @@
 
 ## G.1. Obras de la RAE y ASALE
 
-- Real Academia Española y Asociación de Academias de la Lengua Española. [*Diccionario de la lengua española*](https://dle.rae.es).
+- Real Academia Española y Asociación de Academias de la Lengua Española. [*Diccionario de la lengua española*, 24.ª ed.](https://dle.rae.es).
 - —. [*Diccionario panhispánico de dudas*](https://www.rae.es/dpd/).
 - —. *Ortografía de la lengua española* (2010).
 - —. *Nueva gramática de la lengua española* (2009-2011).

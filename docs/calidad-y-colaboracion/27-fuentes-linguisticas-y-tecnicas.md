@@ -2,7 +2,7 @@
 
 ## 27.1. Obras normativas del español
 
-- [Real Academia Española (RAE) y ASALE](https://www.rae.es): *Diccionario de la lengua española* (DLE), *Ortografía de la lengua española* (2010), *Nueva gramática de la lengua española* (2009-2011), *Diccionario panhispánico de dudas* (DPD), *Libro de estilo de la lengua española* (2018).
+- [Real Academia Española (RAE) y ASALE](https://www.rae.es): *Diccionario de la lengua española* (DLE, 24.ª ed.), *Ortografía de la lengua española* (2010), *Nueva gramática de la lengua española* (2009-2011), *Diccionario panhispánico de dudas* (DPD), *Libro de estilo de la lengua española* (2018).
 - [Fundéu](https://www.fundeu.es): recomendaciones y consultas lingüísticas.
 - [Wikilengua](https://www.wikilengua.org): recopilación colaborativa de dudas y criterios de uso.
 

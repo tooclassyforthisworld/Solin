@@ -28,4 +28,4 @@ Formatos admitidos, flujo de revisión, gestión de permisos, coste, licencia, i
 
 ## 23.5. Automatizaciones
 
-Los scripts y las herramientas de conversión (por ejemplo, para pasar de un tratamiento a otro o para validar la ortotipografía) son útiles, pero se prueban y se revisan siempre de forma manual, porque no resuelven por sí solos las diferencias de gramática y de contexto.
+Las secuencias de órdenes y las herramientas de conversión (por ejemplo, para pasar de un tratamiento a otro o para validar la ortotipografía) son útiles, pero se prueban y se revisan siempre de forma manual, porque no resuelven por sí solos las diferencias de gramática y de contexto.

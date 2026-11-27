@@ -16,7 +16,7 @@ La **localización** adapta un producto a una lengua y una cultura: traduce, per
 | Se traduce | Normalmente no se traduce |
 |---|---|
 | Texto de la interfaz, ayuda y mensajes | Nombres de producto y marcas |
-| Texto alternativo de imágenes | Código, comandos, rutas y claves |
+| Texto alternativo de imágenes | Código, órdenes, rutas y claves |
 | Cadenas de error visibles | Identificadores internos y nombres de variables |
 | Metadatos de ficha y tienda | Nombres de funciones de lenguajes de programación |
 | Mensajes de log destinados al usuario final | Mensajes de log técnicos (según proyecto) |

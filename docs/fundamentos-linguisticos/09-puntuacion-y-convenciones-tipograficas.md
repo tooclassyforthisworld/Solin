@@ -18,7 +18,7 @@
 
 Según la ortografía académica, se usan en este orden jerárquico: **angulares** `« »`, luego **inglesas** `“ ”`, luego **simples** `‘ ’`.
 
-- **Recomendación:** convertir las comillas rectas `" '` del original en comillas angulares en español.
+- **Recomendación:** convertir las comillas rectas, también llamadas dactilográficas (`" '`), del original en comillas angulares en español.
 - **Opción:** en América son comunes las comillas inglesas; un proyecto puede elegirlas y debe aplicarlas con coherencia.
 - Los signos de puntuación se colocan fuera de las comillas, salvo que pertenezcan al texto citado.
 
@@ -74,7 +74,7 @@ La microtipografía cuida los caracteres, los espacios y los signos pequeños qu
 | Ordinales | nº 5, 2a | n.º 5, 2.ª | U+00BA, U+00AA |
 | Exponentes y subíndices | m2, CO2 | m², CO₂ | U+00B2, U+00B3, U+2082 |
 
-Si la fuente no incluye un carácter, se usa el marcado del formato (`<sup>`, `<sub>`) antes que una letra o cifra normal.
+Si el tipo de letra no incluye un carácter, se usa el marcado del formato (`<sup>`, `<sub>`) antes que una letra o cifra normal.
 
 - **Rangos:** la RAE admite el guion sin espacios («págs. 12-15», «2020-2026»); la tipografía cuidada usa la semirraya `–` (U+2013) en su lugar. **Opción:** elegir una forma y registrarla en el perfil de estilo. En texto corrido suele ser más claro «de 12 a 15», y con números negativos, «de −5 a 5».
 - **Apóstrofo y comillas:** al convertir las comillas rectas en angulares ([9.3](#93-comillas)) no se tocan los apóstrofos de los nombres ni las comillas del código.
@@ -83,4 +83,4 @@ Si la fuente no incluye un carácter, se usa el marcado del formato (`<sup>`, `<
 - **Signos de interrogación y exclamación:** sin espacio entre el signo y el texto que encierran: «¿Guardar los cambios?».
 - **Guionado:** no se parten palabras con guiones manuales. Se deja el guionado automático, con el idioma bien declarado (`lang="es"`), y, solo si es imprescindible, un guion opcional (U+00AD).
 - **Ampersand (`&`):** solo aparece dentro de nombres propios; en el texto se escribe «y».
-- **Accesibilidad y fuentes:** se comprueba que los lectores de pantalla y las fuentes del producto admiten estos caracteres ([capítulo 17](../localizacion/17-accesibilidad.md)).
+- **Accesibilidad y tipos de letra:** se comprueba que los lectores de pantalla y los tipos de letra del producto admiten estos caracteres ([capítulo 17](../localizacion/17-accesibilidad.md)).

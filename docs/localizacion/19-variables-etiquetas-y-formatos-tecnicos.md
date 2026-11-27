@@ -18,7 +18,7 @@
 | Secuencias de escape | `\n`, `\t`, `\"` | Se conservan. |
 | Aceleradores | `~`, `_`, `&` | Se colocan según [12.3](./12-interfaces-graficas.md#123-aceleradores-y-atajos). |
 | Claves e identificadores | `settings.title` | No se traducen. |
-| Rutas, comandos, URL, direcciones de correo | `/usr/bin`, `git pull` | No se traducen, salvo que la documentación lo prevea. |
+| Rutas, órdenes, URL, direcciones de correo | `/usr/bin`, `git pull` | No se traducen, salvo que la documentación lo prevea. |
 | Formatos de fecha y hora | `yyyy-MM-dd`, `%Y-%m-%d` | No se modifican, salvo que sean visibles para quien usa el producto y el proyecto determine su traducción. |
 
 ## 19.3. Pautas
@@ -27,7 +27,7 @@
 - Si una etiqueta envuelve texto que se reordena, se mueve junto con él.
 - No se añaden espacios dentro de las etiquetas ni se alteran sus atributos.
 - Cuando un marcador representa un número, un nombre o una unidad, se comprueba la concordancia de la frase.
-- Las comillas rectas dentro de atributos o código no se sustituyen por tipográficas.
+- Las comillas dactilográficas (rectas) dentro de atributos o código no se sustituyen por tipográficas.
 - Se emplean las verificaciones automáticas de la plataforma para detectar marcadores perdidos, sobrantes o duplicados ([capítulo 24](../calidad-y-colaboracion/24-revision-y-control-de-calidad.md)).
 
 ## 19.4. Formatos de archivo habituales

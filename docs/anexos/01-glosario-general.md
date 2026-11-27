@@ -9,6 +9,7 @@ Términos propios de la traducción y la localización usados en esta guía.
 | **CAT (*Computer-Assisted Translation*)** | Traducción asistida por ordenador: herramientas con memorias, glosarios y comprobaciones. |
 | **CLDR** | Repositorio de datos de localización del Consorcio Unicode (formatos, plurales, nombres). |
 | **Cadena (*string*)** | Unidad de texto traducible de un programa. |
+| **Comillas dactilográficas** | Comillas rectas (`"` y `'`), las del teclado y la máquina de escribir, frente a las tipográficas («», “”, ‘’). |
 | **Contexto** | Información sobre dónde y cómo aparece una cadena. |
 | **Congelación de cadenas (*string freeze*)** | Periodo en que el texto original no cambia para permitir traducir. |
 | **Desarrollo (equipo de)** | Personas que crean el producto. |

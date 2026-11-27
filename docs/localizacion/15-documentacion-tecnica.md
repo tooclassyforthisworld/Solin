@@ -14,7 +14,7 @@
 - Las **advertencias** y notas mantienen un formato uniforme y un vocabulario estable («Nota», «Importante», «Precaución»).
 - Los **elementos de interfaz** se citan con la grafía exacta de la interfaz traducida.
 - **Secuencias de menús:** véase [9.6](../fundamentos-linguisticos/09-puntuacion-y-convenciones-tipograficas.md#96-secuencias-de-menús-y-títulos-compuestos).
-- **Código, comandos y rutas** no se traducen. Los comentarios dentro del código se traducen solo si el proyecto lo establece.
+- **Código, órdenes y rutas** no se traducen. Los comentarios dentro del código se traducen solo si el proyecto lo establece.
 - Los **ejemplos** deben adaptarse al público: nombres, monedas, unidades y fechas locales.
 - Las **capturas de pantalla** se actualizan al idioma traducido.
 
